@@ -1,0 +1,46 @@
+{
+	"id": "b9707e13-7496-3ad3-d5c0-221680293a88",
+	"name": "FuzzyMatch",
+	"description": "",
+	"order": [
+		"b99fea30-9efa-285b-b4f0-970216935965"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1508928374971,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "b99fea30-9efa-285b-b4f0-970216935965",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/v1.0/fuzzyscore",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b9707e13-7496-3ad3-d5c0-221680293a88",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8000/v1.0/fuzzyscore",
+			"description": "Get fuzzy score",
+			"descriptionFormat": "html",
+			"time": 1508928384078,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"data_1\":\"hello\",\n\t\"data_2\":\"hello\"\n}"
+		}
+	]
+}
